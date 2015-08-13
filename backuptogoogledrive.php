@@ -28,7 +28,7 @@
   // Get your credentials from the APIs Console
   $client->setClientId($clientId);
   $client->setClientSecret($clientSecret);
-  $client->setRedirectUri("urn:ietf:wg:oauth:2.0:oob");
+  $client->setRedirectUri($requestURI);
   $client->setScopes(array("https://www.googleapis.com/auth/drive"));
   $service = new Google_DriveService($client);  
   // Exchange authorisation code for access token
