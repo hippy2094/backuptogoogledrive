@@ -6,6 +6,7 @@
    Main script file which creates gzip files and sends them to GoogleDrive */
    
   set_time_limit(0);
+  ini_set('memory_limit', '1024M'); // Suggested by Sam http://goo.gl/tUw4wY
   require_once("google-api-php-client/src/Google_Client.php");
   require_once("google-api-php-client/src/contrib/Google_DriveService.php");
   include("settings.inc.php");

@@ -25,6 +25,6 @@
   $clientSecret = ""; // Get this from the Google APIs Console https://code.google.com/apis/console/
   // Google Drive authentication code
   $authCode = ""; // Needs to be set using getauthcode.php first!    
-  // Request URI
-  $requestURI = "urn:ietf:wg:oauth:2.0:oob";    
+  // Request URI (Suggested by Sam http://goo.gl/tUw4wY )
+  $requestURI = "urn:ietf:wg:oauth:2.0:oob";
 ?>
